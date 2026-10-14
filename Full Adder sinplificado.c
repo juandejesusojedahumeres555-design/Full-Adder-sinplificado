@@ -33,7 +33,7 @@ int main() {
 
             if (Dato_Resivido[0] <= '1' && Dato_Resivido[1] <= '1' && Dato_Resivido[2] <= '1') {
                 Cifra_A =(int) Dato_Resivido[0] - '0'; Cifra_B = (int) Dato_Resivido[1] - '0'; CIn = (int) Dato_Resivido[2] - '0';
-                printf("Cifra A: %i, Cifra A: %i, C-In: %i\n", Cifra_A, Cifra_B, CIn);
+                printf("Cifra A: %i, Cifra B: %i, C-In: %i\n", Cifra_A, Cifra_B, CIn);
 
                 int resultXOR = 0; int resultadoAND = 0; int resultadoANDII = 0;
                 resultXOR = Cifra_A ^ Cifra_B;
